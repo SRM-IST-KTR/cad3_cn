@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/SFPRODISPLAYLIGHTITALIC.OTF') format('opentype');
+  font-style: italic;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
