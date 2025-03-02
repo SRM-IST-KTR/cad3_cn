@@ -12,7 +12,6 @@ const ScrollToTopButton = () => {
             setIsVisible(false);
         }
     };
-
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
@@ -30,7 +29,7 @@ const ScrollToTopButton = () => {
             {isVisible && (
                 <button
                     onClick={scrollToTop}
-                    className="bg-bg_black border border-[#FCF961] text-white hover:text-black p-3 rounded-full shadow-md hover:bg-[#FCF961] transition-colors w-12 h-12 flex items-center justify-center"
+                    className="bg-bg_black border border-red-400 text-white hover:text-black p-3 rounded-full shadow-md hover:bg-red-600 transition-colors w-12 h-12 flex items-center justify-center"
                 >
                     <FaArrowUp />
                 </button>

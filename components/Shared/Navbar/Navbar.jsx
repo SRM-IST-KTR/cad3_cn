@@ -11,17 +11,13 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
         setIsOpen(false);
       }
     };
-
     window.addEventListener('resize', handleResize);
-
- 
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -45,8 +41,7 @@ const Navbar = () => {
               </div>
             </Link>
           </div>
-
-          
+   
           <div className="hidden md:block">
             <div className="flex items-center space-x-8">
               <Link href="/About" className="text-white  font-bold hover:text-red-500 px-3 py-2 text-sm transition-colors">
@@ -77,7 +72,6 @@ const Navbar = () => {
               />
             </div>
           </div>
-
           <div className="md:hidden flex items-center">
             <button
               onClick={toggleMenu}
