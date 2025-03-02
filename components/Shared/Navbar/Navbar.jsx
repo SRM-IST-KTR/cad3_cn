@@ -1,4 +1,3 @@
-// components/Navbar.js
 "use client";
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -20,10 +19,9 @@ const Navbar = () => {
       }
     };
 
-    // Add event listener
     window.addEventListener('resize', handleResize);
 
-    // Cleanup
+ 
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -69,7 +67,6 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Desktop User Icon - extreme right, only visible on desktop */}
           <div className="hidden md:flex items-center">
             <div className="relative w-8 h-8">
               <Image 
@@ -81,7 +78,6 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <button
               onClick={toggleMenu}
@@ -124,7 +120,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile menu, show/hide based on menu state */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-black`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link href="/about" className="text-white hover:text-red-500 block px-3 py-2 text-base font-medium">
@@ -143,7 +138,6 @@ const Navbar = () => {
             Contact Us
           </Link>
           
-          {/* User Icon in Mobile Menu */}
           <div className="flex items-center px-3 py-2">
             <div className="relative w-8 h-8 mr-3">
               <Image 
