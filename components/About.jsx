@@ -18,10 +18,10 @@
 		
 		<div className="absolute inset-0 bg-gradient-to-r from-red-900/80 to-black/60 z-0"></div>
 	
-			<div className="container mx-auto px-4 py-6 md:py-16 flex flex-col md:flex-row sm:items-start justify-between relative z-10  ">
+			<div className="container mx-auto px-4 py-6 md:py-16 flex flex-col md:flex-row sm:items-start justify-center relative z-5  ">
 	
 
-			<div className="w-full md:w-1/2 mb-0 md:mb-0 md:ml-4 lg:ml-20 relative md:mr-[15px] lg:mr-11 flex flex-col justify-start ">
+			<div className="w-full md:w-1/2 mb-0 md:mb-0 md:ml-4 lg:ml-0 relative md:mr-[15px] lg:mr-11 flex flex-col justify-start ">
 
 				<h1 className="font-bebas-neue p-0 text-[90px] sm:text-[180px] lg:text-[250px] md:text-[170px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-50 via-red-400 to-red-600 mb-0 md:mb-6 flex flex-col justify-center align-middle items-center">
 				ABOUT
@@ -34,14 +34,14 @@
 					className=" w-auto h-[200px] sm:h-[220px] md:h-[350px] lg:h-[400px] object-contain"/>
 				</div>
 			</div>
-	<div className=" flex flex-col justify-start w-full md:w-1/2 text-white mt-[20px] md:mt-0 text-center md:text-left max-w-[600px] lg:pr-10">
-		<p className=" lg:mt-[100px] text-base sm:text-lg md:text-xl italic mb-2 md:mb-6 text-wrap">
+	<div className=" flex flex-col justify-start w-full md:w-1/2 text-white mt-[20px] md:mt-[50px] text-center md:text-left max-w-[600px] lg:pr-[60px]">
+		<p className=" lg:mt-[100px] text-base sm:text-lg md:text-2xl font-sf italic mb-2 md:mb-6 text-wrap">
 		Embark On A Coding Odyssey With CN SRM As We Proudly Present Our Flagship Event,
 		</p>
-		<h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-red-300">
+		<h2 className="text-xl sm:text-3xl md:text-5xl font-sf bold mb-2 md:mb-4 text-red-700">
 			"CAD: Ctrl+Alt+Del."
 		</h2>
-		<p className="text-base sm:text-lg md:text-xl mb-3 md:mb-6">
+		<p className="text-base sm:text-lg md:text-2xl mb-3 md:mb-6 font-sf italic">
 			This National Level Hackathon Is The Cornerstone Of An Immersive
 			Fest, Blending Technical Prowess With Engaging Non-Technical Activities.
 		</p>
@@ -67,7 +67,7 @@
 	</div>
 		
       
-      <div className="absolute top-0 right-0 w-8 sm:w-12 md:w-20 h-full bg-gradient-to-l from-red-700/90 to-transparent z-0"></div>
+      
     </div>
   );
 };

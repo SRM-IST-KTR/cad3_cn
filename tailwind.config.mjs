@@ -13,6 +13,7 @@ export default {
       },
       fontFamily: {
         'bebas-neue': ['"Bebas Neue"', 'sans-serif'],
+        'sf' : ['SF Pro Display' , 'sans-serif']
       },
     },
   },
