@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+      title: ["Bebas Neue", "sans-serif"],
+      txt: ["Inter", "sans-serif"],
+    },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
