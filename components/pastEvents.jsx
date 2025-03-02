@@ -30,6 +30,8 @@ const PastEvents = () => {
           height: 49px;
           left: 1514px;
           top: 205px;
+          padding-right: 160px; 
+          box-sizing: content-box;
           z-index: 2;
         }
         .past-events {
