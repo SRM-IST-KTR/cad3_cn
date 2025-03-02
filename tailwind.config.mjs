@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'bebas-neue': ['"Bebas Neue"', 'sans-serif'],
+        'sf' : ['SF Pro Display' , 'sans-serif']
+      },
     },
   },
   plugins: [],
