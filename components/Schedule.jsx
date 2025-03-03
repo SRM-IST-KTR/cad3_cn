@@ -1,6 +1,6 @@
 const Timeline = () => {
     return (
-        <div className="relative w-full flex justify-center items-center">
+        <div className="relative w-full flex justify-center items-center bg-black">
             <div className="text-center relative w-full max-w-[1300px] px-4 md:px-10 py-16 md:py-12 lg:py-12">
                 <p className="inline-block font-title bg-gradient-to-r from-[#DBD9D9] to-[#FF4E4E] bg-clip-text text-transparent  
                 text-5xl sm:text-6xl md:text-6xl lg:text-8xl pb-20 md:pb-32">TIMELINE</p>
