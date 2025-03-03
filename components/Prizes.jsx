@@ -9,7 +9,7 @@ const Prize = () => {
         alt="CAD" 
         width={1250} 
         height={810} 
-        className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[1250px] h-auto sm:top-[30px] md:top-[60px]" 
+        className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[1250px] h-auto sm:top-[30px] md:top-[60px] lg:top-[60px] lg:left-[53%] lg:-translate-x-[35%]" 
       />
 
       {/* Background Triangle Images (Visible only on Desktop) */}
