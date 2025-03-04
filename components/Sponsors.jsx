@@ -2,10 +2,10 @@ import React from 'react';
 
 const Sponsors = () => {
 	return (
-	<>
+	<div className='bg-black'>
 		<div className='flex flex-col items-center'>
 			<div className='lg:text-[158px] md:text-[90px] text-[70px] font-bebas-neue relative w-full'>
-				<div className='flex justify-center gap-x-4'>
+				<div className='flex justify-center gap-x-4 mt-[100px]'>
 					OUR <span className='text-[#FF0000]'>SPONSORS</span>
 				</div>
 				<div className='flex flex-row justify-between absolute top-[-30px]'>
@@ -18,7 +18,7 @@ const Sponsors = () => {
 				</div>
 			</div>
 
-			<div className='flex lg:flex-row md:flex-row flex-col items-center '>
+			<div className='flex lg:flex-row md:flex-row flex-col items-center mb-[100px]'>
 				<div className='flex flex-col items-center text-[#D4D4D4] lg:text-[37px] bg-gradient-to-r from-[#F5F5F5] to-[#8F8F8F] text-transparent bg-clip-text font-sf'>
 					<img className='lg:h-[350px] h-[300px]' src='platinum.png'/>
 					Platinum
@@ -37,7 +37,7 @@ const Sponsors = () => {
 				</div>
 			</div>
 		</div>
-	</>
+	</div>
 	)
 };
 
