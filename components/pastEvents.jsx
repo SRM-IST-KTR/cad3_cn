@@ -3,14 +3,14 @@ import React from "react";
   const PastEvents = () => {
     return (
       <div
-        className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden bg-cover bg-contain"
+        className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden bg-cover "
         style={{ backgroundImage: "url('/pastevents/background.svg')" }}
       >
        
         <img
           src="/pastevents/PAST EVENTS.svg"
           alt="Our Past Events"
-          className="absolute top-8 left-10 w-72 sm:w-96"
+          className="absolute top-8 sm:left-10 left-13 w-72 sm:w-96"
         />
 
         <img
@@ -20,52 +20,24 @@ import React from "react";
         />
        
        
-        <div className="relative w-full  overflow-hidden">
-          <div className="flex w-[200%] animate-slideLoop hover:[animation-play-state:paused]">
-            
-           
-            <div className="flex w-full md:w-1/2 flex-shrink-0 justify-center gap-5 px-4">
-              <img
-                src="/pastevents/Frame 9871.svg"
-                alt="CAD 2.0"
-                className="w-[48%] rounded-lg shadow-lg"
-              />
-              <img
-                src="/pastevents/image 10 (5).svg"
-                alt="Skin Maker"
-                className="w-[48%] rounded-lg shadow-lg"
-              />
-            </div>
-
-            
-            <div className="flex w-full md:w-1/2 flex-shrink-0 justify-center gap-5 px-4">
-              <img
-                src="/pastevents/Frame 9871.svg"
-                alt="CAD 2.0"
-                className="w-[48%] rounded-lg shadow-lg"
-              />
-              <img
-                src="/pastevents/image 10 (5).svg"
-                alt="Skin Maker"
-                className="w-[48%] rounded-lg shadow-lg "
-              />
-            </div>
-                       
-              <div className="flex w-full md:w-1/2 flex-shrink-0 justify-center gap-5 px-4">
-              <img
-                src="/pastevents/Frame 9871.svg"
-                alt="CAD 2.0"
-                className="w-[48%] rounded-lg shadow-lg"
-              />
-              <img
-                src="/pastevents/image 10 (5).svg"
-                alt="Skin Maker"
-                className="w-[48%] rounded-lg shadow-lg "
-              />
-            </div>
-
+       <div className="relative w-full overflow-hidden">
+        <div className="flex w-[800%] sm:w-[300%] animate-slideLoop hover:[animation-play-state:paused] flex-nowrap">
+          {[...Array(10)].map((_, index) => ( // Duplicate images
+          <div key={index} className="flex w-1/3 flex-shrink-0 justify-around gap-5 px-5">
+             <img
+            src="/pastevents/Frame 9871.svg"
+            alt="CAD 2.0"
+            className="w-[48%] sm:w-[48%] rounded-lg shadow-lg"
+            />
+            < img
+            src="/pastevents/image 10 (5).svg"
+            alt="Skin Maker"
+            className="w-[48%] sm:w-[48%] rounded-lg shadow-lg "
+            />
           </div>
+          ))}
         </div>
+      </div>
        
        
         <img
@@ -82,7 +54,7 @@ import React from "react";
               100% { transform: translateX(-100%); }
             }
             .animate-slideLoop {
-              animation: slideLoop 10s linear infinite;
+              animation: slideLoop 21s linear infinite;
             }
           `}
         </style>
@@ -92,3 +64,4 @@ import React from "react";
   };
 
   export default PastEvents;
+
