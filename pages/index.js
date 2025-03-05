@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Navbar from '../components/Shared/Navbar/Navbar';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Schedule from '../components/Schedule';
@@ -21,7 +20,6 @@ export default function Home() {
 					href="/favicon.ico"
 				/>
 			</Head>
-			<Navbar />
 			<Hero />
 			<About />
 			<Schedule />
