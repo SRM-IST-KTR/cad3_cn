@@ -11,7 +11,7 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>CDA 3.0</title>
+				<title>CAD 3.0</title>
 				<meta
 					name="description"
 					content="Welcome to my event"
@@ -21,7 +21,6 @@ export default function Home() {
 					href="/favicon.ico"
 				/>
 			</Head>
-			<Navbar />
 			<Hero />
 			<About />
 			<Schedule />
