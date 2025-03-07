@@ -4,6 +4,7 @@ import React from "react";
     return (
       <div
         className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden bg-cover "
+        id="past-events"
         style={{ backgroundImage: "url('/pastevents/background.svg')" }}
       >
        

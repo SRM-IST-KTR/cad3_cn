@@ -10,6 +10,7 @@ export default {
       fontFamily:{
       title: ["Bebas Neue", "sans-serif"],
       txt: ["Inter", "sans-serif"],
+      
     },
       colors: {
         background: "var(--background)",
